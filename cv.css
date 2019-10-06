@@ -6,18 +6,30 @@ body {
     background-color: #ffffff;
     width: 60%;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     height:140%;
 }
 
+.contenu_skills{
+    color :#8395a7;
+    margin-left:5%;
+}
+
+#hard_skills{
+    background-color: #dd6767;
+    width: 67%;
+    height: 50%;
+    float: left;
+}
+
 #haut { 
-    background-color: #55efc4;
+    background-color: #01a3a4;
     width: 100%;
     height: 25%;
 }
 
 #lien_linkedin{
-    color: #0984e3;
+    color: #eeeeee;
 }
 
 
@@ -30,49 +42,17 @@ body {
     padding: 2%;
 }
 
-
-
-
-
- 
-table {border:0px;
-width:70%;
-margin:auto;
-border-collapse: collapse;
-
-}
-td, th { padding:10px;
-}
-.altrow { background-color:#ccaa66;
+#soft_skills{
+    background-color: #cccccc;
+    width: 32%;
+    height: 50%;
+    float: left;
 }
 
-
-    
-.floatright { padding-left: 90px;
-       float: right;
-       }
-    
-       
- 
-#leftcolumn { background-color: #F1E8B0;
-       float: left;
-       width: 150px;
-       padding-top: 170px;
-       }
-    
-
-    
-#rightcolumn { margin-left: 150px;
-        color: #000000;
-        padding: 10px;
-        }
-    
-#footer { background-color: #CCAA66;
-   color: #000000;
-   border-top: 2px double #000000;
-   font-size: .60em;
-   font-style: italic;
-   text-align: center;
-      }
-      
-img {border:0 }
+.titres_skills{
+    color: #222f3e;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 3%;
+}
