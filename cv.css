@@ -1,3 +1,22 @@
+#anim{
+    color: #222f3e;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 3%;
+    animation-name: animation;
+    animation-duration: 5s;
+}
+
+#audio{
+    margin-left: 30%;
+}
+
+@keyframes animation {
+    0%   { margin-left:0px; }
+    50%  { margin-left:300px; }
+    100% {margin-left:0px; }
+  }
+
 body { 
     background-color: #dfe6e9;
 }
@@ -23,11 +42,11 @@ body {
 
 #contact{
   grid-area: contact;
-  background-color : #aaaaaa;
+  background-color : #01a3a4;
 }
 
 .contenu_skills{
-    color :#8395a7;
+    color :#2a2c2e;
     margin-left:5%;
 }
 
@@ -37,7 +56,7 @@ body {
 
 #hard_skills{
     grid-area: hard;
-    background-color: #dd6767;
+    background-color: #ffffff;
 }
 
 #haut { 
@@ -66,7 +85,7 @@ body {
 
 #soft_skills{
     grid-area: soft;
-    background-color: #cccccc;
+    background-color: #ffffff;
 }
 
 .titres_skills{
