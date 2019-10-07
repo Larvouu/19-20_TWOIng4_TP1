@@ -49,6 +49,11 @@ body {
     color: #eeeeee;
 }
 
+.nav{
+    color: #222f3e;
+    text-align: center;
+    font-size: 16px;
+}
 
 #photo_cv{
     padding : 2%;
